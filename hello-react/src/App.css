@@ -40,6 +40,9 @@
 .memories {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
 }
 
 .image-size {
@@ -47,6 +50,14 @@
 }
 
 .memories-list {
-  width: 150px;
-  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  height: 340px;
+  width: 200px;
+  text-align: center;
+  padding: 30px;
 }
